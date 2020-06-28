@@ -3,6 +3,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     color: #555555;
+    margin: 0;
 }
 
 *,
@@ -119,7 +120,7 @@ img {
     list-style: none;
     text-align: center;
     background-color: #3d3d3d;
-    visibility: hidden;
+    height: 0;
     transition: .5s ease;
 }
 
@@ -138,12 +139,12 @@ img {
 }
 
 .burger-menu__input:checked ~ .burger-menu__wrapper {
-    visibility: visible;
+    height: auto;
     left: 0;
 }
 
 .bg {
-    background-image: url('img/home-bg.jpg');
+    background-image: url('/img/home-bg.jpg');
     background-size: 100% 100%;
     z-index: 10;
 }
@@ -496,7 +497,7 @@ img {
 
 .project {
     width: 100%;
-    background-image: url('img/article-bg.jpg');
+    background-image: url('/img/article-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -746,19 +747,19 @@ img {
     text-transform: uppercase;
     font-weight: 700;
     padding-left: 25px;
-    background-image: url('img/map-marker.svg');
+    background-image: url('/img/map-marker.svg');
     background-position: left;
     background-repeat: no-repeat;
 }
 
 .contacts__data-title--tel {
     margin-top: 30px;
-    background-image: url('img/mobile-marker.svg');
+    background-image: url('/img/mobile-marker.svg');
 }
 
 .contacts__data-title--mail {
     margin-top: 30px;
-    background-image: url('img/mail-marker.svg');
+    background-image: url('/img/mail-marker.svg');
 }
 
 .contacts__data-info {
@@ -1100,6 +1101,11 @@ img {
     .burger-menu__wrapper {
         line-height: 1.2;
         font-size: 16px;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .burger-menu__input:checked ~ .burger-menu__wrapper {
         padding: 20px 0;
     }
 
