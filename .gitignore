@@ -1,2 +1,7 @@
 node_modules
 public
+
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
