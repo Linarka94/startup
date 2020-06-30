@@ -9,11 +9,11 @@
     <img src="https://user-images.githubusercontent.com/28712079/33223425-4ff77aae-d170-11e7-891a-7aa37431f86a.png" alt="GulpJS" />
   </a>
 
-  <p>This project released on NodeJS, Gulp and Bootstrap.</p>
+  <p>This project released on NodeJS and Gulp.</p>
 </div>
 
 
-### Installation
+## Installation
 
 Install [Node.js](https://nodejs.org/) to run project and open folder with project in terminal. Install the dependencies and devDependencies, then build the project :rocket:
 ```sh
